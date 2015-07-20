@@ -7,18 +7,32 @@ body {
 .fl_r {
 	float: right;
 }
+header {
+	background: #3c3f49;
+	height: 52px;
+}
 .logo {
-	background: #272a35 url("../img/logo.png") no-repeat;
+	background: #272a35;
 	display: inline-block;
+	height: 52px;
+	width: 220px;
+}
+.a_logo {
+	background: url("../img/logo.png") no-repeat;
+	margin: 10px 0 15px 15px;
 	height: 27px;
-	width: 160px;
-	border-top: 10px solid #272a35;
-	border-bottom: 15px solid #272a35;
-	border-left: 15px solid #272a35;
-	border-right: 45px solid #272a35;
+	width: 111px;
+	display: inline-block;
+}
+.p_logo {
+	color: #5c6177;
+	display: inline-block;
+	margin-top: 10px;
+	width: 85px;
+	height: 30px;
 }
 nav {
-	padding: 10px 4px;
+	padding: 10px 4px 0 4px;
 	display: inline-block;
 	position: absolute;
 }
@@ -29,11 +43,36 @@ nav>a {
 	border: 1px solid #484b55;
 	background: #484b55;  
 	margin-left: 10px;
-	font-family: "PTSans Regular";
 	text-decoration: none;
 	color: #fff;
 	font-size: 14px;
 }
 .user {
 	display: inline-block;
+	position: inherit;
+	padding: 10px 4px 0 4px;
+}
+.user>div {
+	margin-right: 10px;
+}
+.u_img {
+	border-radius: 100%;
+	background: url("../img/u_img.png") 60% 0%;
+	width: 30px;
+	height: 30px;
+	overflow: hidden;
+	display: inline-block;
+}
+.login {
+	display: inline-block;
+	color: #fff;
+	padding-top: 5px;
+}
+.u_menu {
+	display: inline-block;
+	background: url("../img/u_menu.png") no-repeat;
+	width: 7px;
+	height: 6px;
+	margin-top: 10px;
+	cursor: pointer;
 }
