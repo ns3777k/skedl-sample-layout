@@ -1,0 +1,39 @@
+body {
+		background: #323543;
+}
+.fl_l {
+	float: left;
+}
+.fl_r {
+	float: right;
+}
+.logo {
+	background: #272a35 url("../img/logo.png") no-repeat;
+	display: inline-block;
+	height: 27px;
+	width: 160px;
+	border-top: 10px solid #272a35;
+	border-bottom: 15px solid #272a35;
+	border-left: 15px solid #272a35;
+	border-right: 45px solid #272a35;
+}
+nav {
+	padding: 10px 4px;
+	display: inline-block;
+	position: absolute;
+}
+nav>a {
+	display: inline-block;
+	padding: 8px;
+	border-radius: 10%;
+	border: 1px solid #484b55;
+	background: #484b55;  
+	margin-left: 10px;
+	font-family: "PTSans Regular";
+	text-decoration: none;
+	color: #fff;
+	font-size: 14px;
+}
+.user {
+	display: inline-block;
+}
