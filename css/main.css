@@ -24,12 +24,26 @@ header {
 	width: 111px;
 	display: inline-block;
 }
+.textbox_logo {
+	position: relative;
+}
+.textbox_logo:before {
+	content:"";
+    display:block;
+    position:absolute; 
+    height: 15px;
+    width: 93px;
+    margin-left: 127px;
+    bottom: 0; left: 0;
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), #272a35 75%)
+}
 .p_logo {
 	color: #5c6177;
 	display: inline-block;
 	margin-top: 10px;
 	width: 85px;
 	height: 30px;
+	overflow: hidden;
 }
 nav {
 	padding: 10px 4px 0 4px;
@@ -46,6 +60,9 @@ nav>a {
 	text-decoration: none;
 	color: #fff;
 	font-size: 14px;
+}
+nav>a:hover {
+	background: #5b5d69;
 }
 .user {
 	display: inline-block;
@@ -75,4 +92,76 @@ nav>a {
 	height: 6px;
 	margin-top: 10px;
 	cursor: pointer;
+}
+aside {
+	display: inline-block;
+}
+.btn_add, .btn_search, .block_btn {
+	margin-top: 20px;
+	height: 35px;
+	overflow: hidden;
+}
+.btn_plus {
+	display: inline-block;
+	height: 35px;
+	width: 34px;
+	background: #b2cd07 url("../img/plus_logo.png") no-repeat;
+	border-top-left-radius: 7%;
+	border-bottom-left-radius: 7%;
+	border-right: 1px solid #daeb2b;
+}
+.btn_add_dd {
+	display: inline-block;
+	background: #c1de00;
+	width: 130px;
+	font-weight: bold;
+	font-size: 14px; 
+	color: #272a35;
+	text-decoration: none;
+	padding: 10px;
+}
+.btn_menu {
+	display: inline-block;
+	background: #c1de00 url("../img/u_menu.png") 50% 50% no-repeat;
+	width: 35px;
+	height: 35px;
+	cursor: pointer;
+	border-top-right-radius: 7%;
+	border-bottom-right-radius: 7%;
+}
+
+.btn_search_txt {
+	background: #272a35;
+	border: 1px solid #272a35;
+	border-radius: 7%;
+	width: 95%;
+	height: 15px;
+	padding: 9px 0 9px 10px;
+}
+.btn_block_menu {
+	display: inline-block;
+	background: #282a36 url("../img/block_menu.png") 40% 50% no-repeat;
+	width: 35px;
+	height: 35px;
+	cursor: pointer;
+	border-top-left-radius: 7%;
+	border-bottom-left-radius: 7%;
+}
+.btn_block {
+	display: inline-block;
+	background: #282a36;
+	width: 150px;
+	font-weight: bold;
+	font-size: 14px; 
+	color: #fafafa;
+	text-decoration: none;
+	padding: 10px 0;
+}
+.btn_box {
+	display: inline-block;
+	height: 35px;
+	width: 35px;
+	background: #282a36;
+	border-top-right-radius: 7%;
+	border-bottom-right-radius: 7%;
 }
