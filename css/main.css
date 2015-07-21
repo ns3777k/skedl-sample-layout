@@ -1,11 +1,15 @@
 body {
 		background: #323543;
+		width: 100%;
 }
 .fl_l {
 	float: left;
 }
 .fl_r {
 	float: right;
+}
+.clear {
+	clear: both;
 }
 header {
 	background: #3c3f49;
@@ -15,7 +19,7 @@ header {
 	background: #272a35;
 	display: inline-block;
 	height: 52px;
-	width: 220px;
+	width: 230px;
 }
 .a_logo {
 	background: url("../img/logo.png") no-repeat;
@@ -93,8 +97,13 @@ nav>a:hover {
 	margin-top: 10px;
 	cursor: pointer;
 }
-aside {
+.bar_menu {
 	display: inline-block;
+}
+.btn_add, .btn_search, .block_btn {
+	margin-top: 20px;
+	height: 35px;
+	overflow: hidden;
 }
 .btn_add, .btn_search, .block_btn {
 	margin-top: 20px;
@@ -118,7 +127,7 @@ aside {
 	font-size: 14px; 
 	color: #272a35;
 	text-decoration: none;
-	padding: 10px;
+	padding: 10px 0 10px 10px;
 }
 .btn_menu {
 	display: inline-block;
@@ -129,7 +138,6 @@ aside {
 	border-top-right-radius: 7%;
 	border-bottom-right-radius: 7%;
 }
-
 .btn_search_txt {
 	background: #272a35;
 	border: 1px solid #272a35;
@@ -137,6 +145,16 @@ aside {
 	width: 95%;
 	height: 15px;
 	padding: 9px 0 9px 10px;
+	color: #fafafa;
+}
+.btn_search_img {
+	height: 35px;
+	width: 35px;
+	display: block;
+	position: absolute;
+	z-index: 2;
+	margin: -40px 0 0 175px;
+	background: url("../img/btn_search.png") 50% 50% no-repeat;
 }
 .btn_block_menu {
 	display: inline-block;
@@ -150,7 +168,7 @@ aside {
 .btn_block {
 	display: inline-block;
 	background: #282a36;
-	width: 150px;
+	width: 140px;
 	font-weight: bold;
 	font-size: 14px; 
 	color: #fafafa;
@@ -164,4 +182,24 @@ aside {
 	background: #282a36;
 	border-top-right-radius: 7%;
 	border-bottom-right-radius: 7%;
+}
+.link {
+	display: block;
+	width: 200px;
+	height: 15px;
+	padding: 9px 0 9px 10px;
+	color: #9c9faa;
+	text-decoration: none;
+}
+.link:hover {
+	color: #c1de00;
+}
+.content {
+	height: 80px;;
+	display: inline-block;
+} 
+.c_user {
+	background: #3b3e48;
+	box-shadow: inset 0 0 40px #33363e;
+	height: 80px;
 }
