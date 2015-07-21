@@ -1,6 +1,6 @@
 body {
-		background: #323543;
-		width: 100%;
+	width: 100%;
+	background: #323543;
 }
 .fl_l {
 	float: left;
@@ -99,11 +99,14 @@ nav>a:hover {
 }
 .bar_menu {
 	display: inline-block;
+	background: #323543;
+	height: 100%;
 }
 .btn_add, .btn_search, .block_btn {
 	margin-top: 20px;
 	height: 35px;
 	overflow: hidden;
+	margin-right: 20px;
 }
 .btn_add, .btn_search, .block_btn {
 	margin-top: 20px;
@@ -186,17 +189,21 @@ nav>a:hover {
 .link {
 	display: block;
 	width: 200px;
-	height: 15px;
 	padding: 9px 0 9px 10px;
 	color: #9c9faa;
 	text-decoration: none;
+	word-wrap: break-word;
 }
 .link:hover {
 	color: #c1de00;
 }
 .content {
-	height: 80px;;
+	height: 80px;
+	width: 100%;
 	display: inline-block;
+	position: absolute;
+	z-index: -1;
+	top: 52px;
 } 
 .c_user {
 	background: #3b3e48;
