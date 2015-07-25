@@ -68,12 +68,11 @@ nav>a {
 nav>a:hover {
 	background: #5b5d69;
 }
-figure {
+.mini_user {
 	display: inline-block;
-	position: inherit;
 	padding: 10px 4px 0 4px;
 }
-figure>div {
+.mini_user>div {
 	margin-right: 10px;
 }
 .u_img {
@@ -190,10 +189,36 @@ aside {
 .link:hover {
 	color: #c1de00;
 } 
-.c_user {
+.norm_user {
+	margin-left: 220px;
 	background: #3b3e48;
 	box-shadow: inset 0 0 40px #33363e;
-	height: 80px;
+	height: 70px;
+	padding: 5px;
+}
+.n_img {
+	margin: 5px 0 0 10px ;
+	background: url("../img/norm_user.png") 0% 50% no-repeat;
+	width: 58px;
+	height: 58px;
+	overflow: hidden;
+	display: inline-block;
+}
+.n_name>.login {
+	border-bottom: 1px dotted #fff;	
+	cursor: pointer;
+}
+.about {
+	font-size: 12px;
+	padding-top: 10px;
+}
+.n_name {
+	display: block;
+	width: 240px;
+	background: url("../img/u_menu.png") 68% 35% no-repeat;
+	padding-left: 78px; 
+	color: #fff;
+	padding-top: 5px;
 }
 .user_block {
 	background: #fff;
