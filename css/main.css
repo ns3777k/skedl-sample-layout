@@ -312,11 +312,19 @@ h2 {
 }
 .task_status>a {
 	border-radius: 15px;
-	background: green;
 	color: white;
 	padding: 0 10px 2px 10px;
 	margin-left: 10px;
 	text-decoration: none;
+}
+.ready_status_red>a {
+	background: #f00;
+}
+.ready_status_green>a {
+	background: #86bc05;
+}
+.ready_status_yellow>a {
+	background: #ffe400;
 }
 /*.tasks:hover {
 	background: #d9d9d9;
