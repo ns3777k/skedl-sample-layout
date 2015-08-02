@@ -108,13 +108,18 @@ aside {
 	height: 35px;
 	margin-right: 10px;
 }
+.aside_block {
+	margin-top: 18px;
+}
+.a_block {
+	margin-bottom: 18px;
+}
 .btn_search {
 	margin-top: 20px;
 	height: 30px;
 	margin-right: 10px;
 }
 .block_btn {
-	margin-top: 18px;
 	height: 20px;
 }
 .btn_plus {
@@ -178,12 +183,16 @@ aside {
 }
 .block_text {
 	width: 200px;
+	margin: 5px 0 0 28px;
+}
+.a_block:last-child{
+	margin-top: 30px;
 }
 .link {
 	display: block;
 	width: 172px;
 	font-size: 14px;
-	padding: 3px 0 3px 28px;
+	padding: 3px 0 1px 0;
 	color: #9c9faa;
 	text-decoration: none;
 	word-wrap: break-word;
